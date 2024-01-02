@@ -42,5 +42,24 @@ Constraints:
  */
 
 
+$nums = [1, 3, 4, 1, 2, 3, 1];
+
+
+class Solution {
+
+    /**
+     * @param Integer[] $nums
+     * @return Integer[][]
+     */
+    function findMatrix($nums) {
+        return $nums;
+    }
+}
+
+
+print_r((new Solution())->findMatrix($nums));
+
+
+
 
 
